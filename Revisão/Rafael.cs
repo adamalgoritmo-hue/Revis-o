@@ -12,6 +12,6 @@ namespace Revisão
 
         public List<string> Habilidades { get; set; }
         = new List<string>();
-       
+        public int idade;
     }
 }
