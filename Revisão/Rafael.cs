@@ -10,8 +10,7 @@ namespace Revisão
     {
         public string Nome;
 
-        public List<string> Habilidades { get; set; }
-        = new List<string>();
+        public List<string> Habilidades;
         public int idade;
     }
 }
