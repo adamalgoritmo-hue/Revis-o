@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Revisão;
 
-Adam nome1 = new Adam();
-nome1 nome = "Adam";
+Adam opcao = new Adam();
+opcao.nome = "Adam";
+opcao.Habilidades = new List<string>() { "Andar", "Correr" };
