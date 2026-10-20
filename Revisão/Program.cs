@@ -1,6 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using System.Runtime.CompilerServices;
 using Revisão;
 
 Adam opcao = new Adam();
 opcao.nome = "Adam";
-opcao.Habilidades = new List<string>() { "Andar", "Correr" };
+opcao.Habilidades = new List<string>() { "Andar", "Correr", "Jogar", "Editar" };
+
+opcao.ExibirDados();

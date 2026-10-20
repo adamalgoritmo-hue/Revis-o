@@ -10,5 +10,15 @@ namespace Revisão
     {
         public List<string> Habilidades;
         public string nome;
+
+        public void ExibirDados()
+        {
+            Console.WriteLine($"Nome: {nome}");
+            Console.WriteLine("Habilidades:");
+            foreach ( string habilidades in Habilidades)
+            {
+                Console.WriteLine($"- {habilidades}");
+            }
+        }
     }
 }
