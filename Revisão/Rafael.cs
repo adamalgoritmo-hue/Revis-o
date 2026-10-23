@@ -8,10 +8,10 @@ namespace Revisão
 {
     public class Rafael
     {
-        public string Nome;
+        public string Nome { get; set; }
 
-        public List<string> Habilidades;
-        public int idade;
+        public List<string> Habilidades { get; set; }
+        public int idade { get; set; }
         public void ExibirDados()
         {
             Console.WriteLine($"Meu nome e {Nome}");
