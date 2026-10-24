@@ -10,8 +10,14 @@ namespace Revisão
     {
         public string Nome;
 
-        public List<string> Habilidades { get; set; }
-        = new List<string>();
+        public List<string> Habilidades;
         public int idade;
+        public void ExibirDados()
+        {
+            Console.WriteLine($"Meu nome e {Nome}");
+            Console.WriteLine($"Minhas habilidades sao {Habilidades}");
+            Console.WriteLine($"Eu tenho {idade}");
+        }
     }
+    
 }
